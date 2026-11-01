@@ -1,0 +1,212 @@
+import { L } from "@/i18n/config";
+import type { Experience } from "./types";
+
+/**
+ * EDITORIAL DRAFTS: general descriptions of well-known places.
+ * Deliberately contains no opening hours, ticket prices, entry rules or closures, because those change.
+ * Readers are always sent to the official source for them.
+ */
+const reviewed = "2026-10-16";
+
+export const experiences: Experience[] = [
+  {
+    id: "e-hagia-sophia",
+    slug: "hagia-sophia",
+    category: "history",
+    title: L("Hagia Sophia", "Ayasofya", "آيا صوفيا", "Santa Sofía"),
+    summary: L(
+      "A monument of the historic peninsula, completed in the 6th century.",
+      "Tarihi yarımadada, 6. yüzyılda tamamlanan bir anıt yapı.",
+      "معلم في شبه الجزيرة التاريخية، اكتمل بناؤه في القرن السادس.",
+      "Un monumento de la península histórica, terminado en el siglo VI.",
+    ),
+    description: L(
+      "Completed in the 6th century, Hagia Sophia has served as a church, a mosque and a museum, and is today a functioning mosque. Visiting arrangements, dress expectations and access rules are set by the authorities and can change, so check the official source before you go.",
+      "6. yüzyılda tamamlanan Ayasofya; kilise, cami ve müze olarak kullanılmış, bugün ibadete açık bir camidir. Ziyaret düzeni, kıyafet beklentileri ve giriş kuralları yetkililerce belirlenir ve değişebilir; gitmeden önce resmî kaynaktan kontrol edin.",
+      "اكتمل بناء آيا صوفيا في القرن السادس، وعمل كنيسة ثم مسجدًا ثم متحفًا، وهو اليوم مسجد عامل. تحدد الجهات الرسمية ترتيبات الزيارة والزيّ وقواعد الدخول وقد تتغير، فتحقق من المصدر الرسمي قبل الذهاب.",
+      "Terminada en el siglo VI, Santa Sofía ha sido iglesia, mezquita y museo, y hoy es una mezquita en funcionamiento. Las normas de visita, de vestimenta y de acceso las fijan las autoridades y pueden cambiar, así que consulta la fuente oficial antes de ir.",
+    ),
+    area: L("Fatih (Sultanahmet)", "Fatih (Sultanahmet)", "الفاتح (السلطان أحمد)", "Fatih (Sultanahmet)"),
+    duration: L("Plan about 1–2 hours", "Yaklaşık 1–2 saat ayırın", "خصّص نحو ساعة إلى ساعتين", "Calcula entre 1 y 2 horas"),
+    dataStatus: "editorial",
+    lastUpdated: reviewed,
+  },
+  {
+    id: "e-topkapi",
+    slug: "topkapi-palace",
+    category: "history",
+    title: L("Topkapı Palace", "Topkapı Sarayı", "قصر طوب قابي", "Palacio de Topkapı"),
+    summary: L(
+      "A former Ottoman imperial palace above the Golden Horn and Bosphorus.",
+      "Haliç ve Boğaz'a bakan eski bir Osmanlı saray külliyesi.",
+      "قصر إمبراطوري عثماني سابق يطل على القرن الذهبي والبوسفور.",
+      "Antiguo palacio imperial otomano sobre el Cuerno de Oro y el Bósforo.",
+    ),
+    description: L(
+      "For centuries the main residence and administrative centre of the Ottoman sultans, Topkapı Palace is now a museum with courtyards, pavilions and collections. Check the official source for opening days, sections open to visitors and ticketing.",
+      "Yüzyıllar boyunca Osmanlı padişahlarının başlıca ikametgâhı ve yönetim merkezi olan Topkapı Sarayı bugün avlular, köşkler ve koleksiyonlarıyla bir müzedir. Açık günler, ziyarete açık bölümler ve biletleme için resmî kaynağa bakın.",
+      "كان قصر طوب قابي لقرون المقر الرئيسي ومركز الإدارة لدى السلاطين العثمانيين، وهو اليوم متحف بساحاته وأجنحته ومقتنياته. راجع المصدر الرسمي لمعرفة أيام الفتح والأقسام المتاحة للزوار والتذاكر.",
+      "Durante siglos residencia principal y centro administrativo de los sultanes otomanos, el Palacio de Topkapı es hoy un museo con patios, pabellones y colecciones. Consulta la fuente oficial para los días de apertura, las secciones visitables y las entradas.",
+    ),
+    area: L("Fatih (Sultanahmet)", "Fatih (Sultanahmet)", "الفاتح (السلطان أحمد)", "Fatih (Sultanahmet)"),
+    duration: L("Plan about half a day", "Yaklaşık yarım gün ayırın", "خصّص نحو نصف يوم", "Calcula media jornada"),
+    dataStatus: "editorial",
+    lastUpdated: reviewed,
+  },
+  {
+    id: "e-cistern",
+    slug: "basilica-cistern",
+    category: "history",
+    title: L("Basilica Cistern", "Yerebatan Sarnıcı", "صهريج البازيليك", "Cisterna Basílica"),
+    summary: L(
+      "A Byzantine underground water cistern supported by rows of columns.",
+      "Sıra sıra sütunlarla taşınan Bizans dönemi yeraltı su sarnıcı.",
+      "صهريج مياه بيزنطي تحت الأرض تحمله صفوف من الأعمدة.",
+      "Cisterna bizantina subterránea sostenida por hileras de columnas.",
+    ),
+    description: L(
+      "Built in the 6th century to store water for the city's palaces, the cistern is a cool, dimly lit hall of columns beneath the old city. Check the official source for hours and tickets.",
+      "6. yüzyılda şehrin saraylarına su depolamak için yapılan sarnıç, eski şehrin altında serin ve loş bir sütun salonudur. Saatler ve biletler için resmî kaynağa bakın.",
+      "بُني في القرن السادس لتخزين المياه لقصور المدينة، وهو قاعة أعمدة باردة خافتة الإضاءة تحت المدينة القديمة. راجع المصدر الرسمي للمواعيد والتذاكر.",
+      "Construida en el siglo VI para almacenar agua para los palacios de la ciudad, es una sala de columnas fresca y de luz tenue bajo el casco antiguo. Consulta la fuente oficial para horarios y entradas.",
+    ),
+    area: L("Fatih (Sultanahmet)", "Fatih (Sultanahmet)", "الفاتح (السلطان أحمد)", "Fatih (Sultanahmet)"),
+    duration: L("Plan about 1 hour", "Yaklaşık 1 saat ayırın", "خصّص نحو ساعة", "Calcula una hora"),
+    dataStatus: "editorial",
+    lastUpdated: reviewed,
+  },
+  {
+    id: "e-grand-bazaar",
+    slug: "grand-bazaar",
+    category: "markets",
+    title: L("Grand Bazaar", "Kapalıçarşı", "السوق المسقوف الكبير", "Gran Bazar"),
+    summary: L(
+      "One of the oldest and largest covered markets in the world.",
+      "Dünyanın en eski ve en büyük kapalı çarşılarından biri.",
+      "من أقدم وأكبر الأسواق المسقوفة في العالم.",
+      "Uno de los mercados cubiertos más antiguos y grandes del mundo.",
+    ),
+    description: L(
+      "A maze of covered streets and courtyards with hundreds of shops selling textiles, ceramics, lamps, jewellery and gifts. Prices are negotiable in many shops; opening days and hours vary, so confirm before visiting.",
+      "Tekstil, seramik, lamba, takı ve hediyelik eşya satan yüzlerce dükkânın bulunduğu, kapalı sokaklar ve avlulardan oluşan bir labirent. Birçok dükkânda fiyat pazarlığı yapılır; açık günler ve saatler değişir, gitmeden önce doğrulayın.",
+      "متاهة من الأزقة والساحات المسقوفة تضم مئات المحلات التي تبيع المنسوجات والخزف والمصابيح والمجوهرات والهدايا. يمكن التفاوض على الأسعار في كثير من المحلات، وتختلف أيام العمل وساعاته، فتأكد قبل الزيارة.",
+      "Un laberinto de calles cubiertas y patios con cientos de tiendas que venden tejidos, cerámica, lámparas, joyas y regalos. En muchas tiendas se puede regatear; los días y horarios varían, así que confírmalos antes de ir.",
+    ),
+    area: L("Fatih (Beyazıt)", "Fatih (Beyazıt)", "الفاتح (بيازيد)", "Fatih (Beyazıt)"),
+    duration: L("Plan about 1–3 hours", "Yaklaşık 1–3 saat ayırın", "خصّص نحو ساعة إلى ثلاث ساعات", "Calcula entre 1 y 3 horas"),
+    dataStatus: "editorial",
+    lastUpdated: reviewed,
+  },
+  {
+    id: "e-spice-bazaar",
+    slug: "spice-bazaar",
+    category: "markets",
+    title: L("Spice Bazaar", "Mısır Çarşısı", "سوق التوابل", "Bazar de las Especias"),
+    summary: L(
+      "A historic covered market known for spices, sweets and dried fruit.",
+      "Baharat, tatlı ve kuru meyvesiyle bilinen tarihî kapalı çarşı.",
+      "سوق مسقوف تاريخي معروف بالتوابل والحلويات والفواكه المجففة.",
+      "Mercado cubierto histórico conocido por sus especias, dulces y frutos secos.",
+    ),
+    description: L(
+      "Near the Eminönü waterfront, the bazaar is a good place to see Turkish delight, spices, teas and dried fruit. Compare quality and prices between stalls, and check the label of anything you plan to carry home.",
+      "Eminönü sahilinin yakınındaki çarşı; lokum, baharat, çay ve kuru meyve görmek için iyi bir yerdir. Tezgâhlar arasında kalite ve fiyatları karşılaştırın, eve götüreceğiniz ürünlerin etiketini kontrol edin.",
+      "قرب واجهة أمينونو البحرية، وهو مكان جيد لرؤية الراحة التركية والتوابل والشاي والفواكه المجففة. قارن الجودة والأسعار بين البسطات، وراجع بطاقة أي منتج تنوي أخذه معك.",
+      "Cerca del paseo marítimo de Eminönü, es un buen lugar para ver delicias turcas, especias, tés y frutos secos. Compara calidad y precios entre los puestos y revisa la etiqueta de todo lo que pienses llevarte a casa.",
+    ),
+    area: L("Fatih (Eminönü)", "Fatih (Eminönü)", "الفاتح (أمينونو)", "Fatih (Eminönü)"),
+    duration: L("Plan about 1 hour", "Yaklaşık 1 saat ayırın", "خصّص نحو ساعة", "Calcula una hora"),
+    dataStatus: "editorial",
+    lastUpdated: reviewed,
+  },
+  {
+    id: "e-galata",
+    slug: "galata-tower",
+    category: "neighbourhoods",
+    title: L("Galata Tower and neighbourhood", "Galata Kulesi ve çevresi", "برج غلطة وحيّه", "Torre de Gálata y su barrio"),
+    summary: L(
+      "A medieval stone tower with views over the old city and the Golden Horn.",
+      "Eski şehir ve Haliç manzaralı ortaçağ taş kulesi.",
+      "برج حجري من العصور الوسطى يطل على المدينة القديمة والقرن الذهبي.",
+      "Torre de piedra medieval con vistas al casco antiguo y al Cuerno de Oro.",
+    ),
+    description: L(
+      "The tower stands in the Galata neighbourhood, whose steep streets lead to cafés, small galleries and shops. Check the official source for visiting arrangements.",
+      "Kule, dik sokaklarıyla kafelere, küçük galerilere ve dükkânlara uzanan Galata semtinde yer alır. Ziyaret düzeni için resmî kaynağa bakın.",
+      "يقع البرج في حي غلطة الذي تؤدي شوارعه المنحدرة إلى مقاهٍ ومعارض صغيرة ومحلات. راجع المصدر الرسمي لترتيبات الزيارة.",
+      "La torre se alza en el barrio de Gálata, cuyas empinadas calles llevan a cafés, pequeñas galerías y tiendas. Consulta la fuente oficial para las condiciones de visita.",
+    ),
+    area: L("Beyoğlu (Galata)", "Beyoğlu (Galata)", "بيوغلو (غلطة)", "Beyoğlu (Gálata)"),
+    duration: L("Plan about 1–2 hours", "Yaklaşık 1–2 saat ayırın", "خصّص نحو ساعة إلى ساعتين", "Calcula entre 1 y 2 horas"),
+    dataStatus: "editorial",
+    lastUpdated: reviewed,
+  },
+  {
+    id: "e-suleymaniye",
+    slug: "suleymaniye-mosque",
+    category: "history",
+    title: L("Süleymaniye Mosque", "Süleymaniye Camii", "جامع السليمانية", "Mezquita de Solimán"),
+    summary: L(
+      "A 16th-century mosque complex designed by the architect Sinan.",
+      "Mimar Sinan'ın tasarladığı 16. yüzyıl cami külliyesi.",
+      "مجمّع مسجد من القرن السادس عشر صممه المعماري سنان.",
+      "Complejo de mezquita del siglo XVI diseñado por el arquitecto Sinan.",
+    ),
+    description: L(
+      "Overlooking the Golden Horn from one of the city's hills, the complex is among the best-known works of the architect Mimar Sinan. It is an active place of worship: dress modestly, and respect prayer times and visiting rules.",
+      "Şehrin tepelerinden birinden Haliç'e bakan külliye, Mimar Sinan'ın en bilinen eserleri arasındadır. Aktif bir ibadet yeridir: mütevazı giyinin, namaz vakitlerine ve ziyaret kurallarına saygı gösterin.",
+      "يطل المجمّع على القرن الذهبي من أحد تلال المدينة، وهو من أشهر أعمال المعماري سنان. وهو مكان عبادة نشط: ارتدِ ملابس محتشمة واحترم أوقات الصلاة وقواعد الزيارة.",
+      "Desde una de las colinas de la ciudad, el complejo domina el Cuerno de Oro y es una de las obras más conocidas del arquitecto Mimar Sinan. Es un lugar de culto activo: viste con recato y respeta los horarios de oración y las normas de visita.",
+    ),
+    area: L("Fatih (Süleymaniye)", "Fatih (Süleymaniye)", "الفاتح (السليمانية)", "Fatih (Süleymaniye)"),
+    duration: L("Plan about 1 hour", "Yaklaşık 1 saat ayırın", "خصّص نحو ساعة", "Calcula una hora"),
+    dataStatus: "editorial",
+    lastUpdated: reviewed,
+  },
+  {
+    id: "e-bosphorus",
+    slug: "bosphorus-ferries",
+    category: "waterfront",
+    title: L("Bosphorus by ferry", "Boğaz'da vapur yolculuğu", "رحلة بالعبّارة في البوسفور", "El Bósforo en ferry"),
+    summary: L(
+      "Cross between Europe and Asia on the strait that divides the city.",
+      "Şehri ikiye bölen boğazda Avrupa ile Asya arasında geçiş.",
+      "التنقل بين أوروبا وآسيا عبر المضيق الذي يقسم المدينة.",
+      "Cruza entre Europa y Asia por el estrecho que divide la ciudad.",
+    ),
+    description: L(
+      "The Bosphorus connects the Black Sea and the Sea of Marmara and separates the European and Asian sides of Istanbul. Public ferries and organised cruises both run on it; routes, schedules and fares change, so check the operator.",
+      "Boğaz, Karadeniz ile Marmara Denizi'ni birleştirir ve İstanbul'un Avrupa ve Asya yakalarını ayırır. Hem şehir hatları vapurları hem de organize turlar çalışır; güzergâh, sefer ve ücretler değişir, işletmeciyi kontrol edin.",
+      "يصل البوسفور البحر الأسود ببحر مرمرة ويفصل بين الجانبين الأوروبي والآسيوي من إسطنبول. تعمل عليه العبّارات العامة والرحلات السياحية المنظمة؛ وتتغير المسارات والمواعيد والأسعار، فتحقق من المشغّل.",
+      "El Bósforo une el mar Negro y el mar de Mármara y separa los lados europeo y asiático de Estambul. Navegan por él ferris públicos y cruceros organizados; las rutas, los horarios y las tarifas cambian, así que consulta al operador.",
+    ),
+    area: L("Across the city", "Şehrin her yanı", "في أنحاء المدينة", "Por toda la ciudad"),
+    duration: L("Plan about 1–2 hours", "Yaklaşık 1–2 saat ayırın", "خصّص نحو ساعة إلى ساعتين", "Calcula entre 1 y 2 horas"),
+    dataStatus: "editorial",
+    lastUpdated: reviewed,
+  },
+  {
+    id: "e-kadikoy",
+    slug: "kadikoy",
+    category: "neighbourhoods",
+    title: L("Kadıköy", "Kadıköy", "قاضي كوي", "Kadıköy"),
+    summary: L(
+      "An Asian-side district known for its market streets, cafés and ferry connection.",
+      "Çarşı sokakları, kafeleri ve vapur bağlantısıyla bilinen Anadolu yakası semti.",
+      "حيّ في الجانب الآسيوي معروف بأسواقه ومقاهيه وارتباطه بالعبّارات.",
+      "Distrito de la orilla asiática conocido por sus calles de mercado, sus cafés y su conexión en ferry.",
+    ),
+    description: L(
+      "Reached by ferry from the European side, Kadıköy has a lively food market area, cafés and independent shops. A relaxed way to see everyday Istanbul away from the main monuments.",
+      "Avrupa yakasından vapurla ulaşılan Kadıköy'de hareketli bir yiyecek çarşısı, kafeler ve bağımsız dükkânlar vardır. Ana anıtlardan uzakta gündelik İstanbul'u görmenin rahat bir yoludur.",
+      "يمكن الوصول إلى قاضي كوي بالعبّارة من الجانب الأوروبي، وفيه منطقة سوق طعام نشطة ومقاهٍ ومحلات مستقلة. طريقة هادئة لرؤية إسطنبول اليومية بعيدًا عن المعالم الرئيسية.",
+      "A la que se llega en ferry desde el lado europeo, Kadıköy tiene una animada zona de mercado de alimentos, cafés y tiendas independientes. Una forma relajada de ver el Estambul cotidiano lejos de los grandes monumentos.",
+    ),
+    area: L("Kadıköy", "Kadıköy", "قاضي كوي", "Kadıköy"),
+    duration: L("Plan about half a day", "Yaklaşık yarım gün ayırın", "خصّص نحو نصف يوم", "Calcula media jornada"),
+    dataStatus: "editorial",
+    lastUpdated: reviewed,
+  },
+];
+
+export const experienceCategories: Experience["category"][] = ["history", "markets", "waterfront", "neighbourhoods"];

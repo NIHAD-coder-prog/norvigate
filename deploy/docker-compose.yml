@@ -1,0 +1,42 @@
+# Run from this folder:  docker compose --env-file ../.env up -d --build
+services:
+  web:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+      target: run
+      args:
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://norvigate.com}
+    restart: unless-stopped
+    env_file: ../.env
+    environment:
+      NORVIGATE_DATA_DIR: /data
+    volumes:
+      - data:/data            # submissions and orders live here: back this volume up
+    expose: ["3000"]
+    # IMPORTANT: run exactly ONE web container. Orders are written to files with an in-process lock.
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports: ["80:80", "443:443"]
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+    depends_on: [web]
+  # Owner tools, only when asked for:
+  #   docker compose --profile tools run --rm tools orders -- list
+  #   docker compose --profile tools run --rm tools store:check
+  tools:
+    profiles: ["tools"]
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+      target: tools
+    env_file: ../.env
+    environment:
+      NORVIGATE_DATA_DIR: /data
+    volumes:
+      - data:/data
+volumes:
+  data:
+  caddy_data:

@@ -1,0 +1,10 @@
+# Caddy gets and renews HTTPS certificates by itself once the DNS records point to this server.
+# Replace the hostnames with yours if they differ.
+norvigate.com, www.norvigate.com, istanbul.norvigate.com {
+	encode zstd gzip
+	reverse_proxy web:3000 {
+		# The app rate-limits by client address. Never trust a value sent by the visitor:
+		# overwrite X-Forwarded-For with the address Caddy actually saw.
+		header_up X-Forwarded-For {remote_host}
+	}
+}
