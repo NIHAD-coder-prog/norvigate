@@ -2,7 +2,8 @@ import Link from "next/link";
 import { getCtx, makeMeta, type LocaleParams } from "@/lib/page";
 import { listExperiences } from "@/lib/repo";
 import { pick } from "@/i18n/config";
-import { Chip, Notice, PageHero } from "@/components/ui";
+import { Chip, Notice } from "@/components/ui";
+import { PageHero } from "@/components/ui-server";
 
 export async function generateMetadata({ params }: LocaleParams) {
   return makeMeta(params, "/istanbul/experiences", (d) => ({ title: `${d.experiences.title} | NORVIGATE`, description: d.experiences.lead }));

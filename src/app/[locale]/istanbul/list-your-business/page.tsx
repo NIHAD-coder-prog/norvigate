@@ -1,7 +1,8 @@
 import { getCtx, makeMeta, type LocaleParams } from "@/lib/page";
 import { listProviderCategories } from "@/lib/repo";
 import { pick } from "@/i18n/config";
-import { Notice, PageHero } from "@/components/ui";
+import { Notice } from "@/components/ui";
+import { PageHero } from "@/components/ui-server";
 import { InquiryForm } from "@/components/client/InquiryForm";
 
 export async function generateMetadata({ params }: LocaleParams) {

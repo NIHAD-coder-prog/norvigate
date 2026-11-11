@@ -1,3 +1,4 @@
+import { fr } from "./fr";
 import type { ContentOverlay } from "../overlay";
 
 /**
@@ -6,5 +7,6 @@ import type { ContentOverlay } from "../overlay";
  * See ../overlay.ts for the overlay format.
  */
 export const contentOverlays: Record<string, ContentOverlay> = {
+  "fr": fr,
   // <<ADD-CONTENT>>
 };

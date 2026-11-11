@@ -73,6 +73,7 @@ export function middleware(request: NextRequest) {
     }
     const headers = new Headers(request.headers);
     headers.set("x-nonce", nonce);
+    headers.set("x-locale", first);
     headers.set("Content-Security-Policy", csp);
     return secure(NextResponse.next({ request: { headers } }));
   }

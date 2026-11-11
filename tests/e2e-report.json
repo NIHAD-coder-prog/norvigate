@@ -1,6 +1,6 @@
 {
- "at": "2026-10-30T08:04:02.984Z",
- "total": 2891,
+ "at": "2026-11-09T00:35:53.650Z",
+ "total": 3587,
  "failed": 0,
  "results": [
   {
@@ -4040,6 +4040,934 @@
    "ok": true
   },
   {
+   "name": "status 200 390px fr/",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/about",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/about",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/about",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/about",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/about",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/about",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/about",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/about",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "status 200 390px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 390px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 390px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 390px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "images have alt 390px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 390px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "title present 390px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "no console errors 390px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
    "name": "status 200 768px en/",
    "ok": true
   },
@@ -7752,6 +8680,934 @@
    "ok": true
   },
   {
+   "name": "status 200 768px fr/",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/about",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/about",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/about",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/about",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/about",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/about",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/about",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/about",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "status 200 768px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 768px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 768px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 768px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "images have alt 768px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 768px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "title present 768px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "no console errors 768px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
    "name": "status 200 1440px en/",
    "ok": true
   },
@@ -11461,6 +13317,934 @@
   },
   {
    "name": "no console errors 1440px es/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/cities",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/about",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/about",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/about",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/about",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/about",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/about",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/about",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/about",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/contact",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/privacy",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/terms",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/cookies",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/currency",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/services",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/experiences",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/travel",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/flights",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/hotels",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/translation",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/tools",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/guide",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/premium",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/store",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/store/cart",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/store/terms",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/store/shipping-returns",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/faq",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/search",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/search?q=translation",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/list-your-business",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/services/sample-guesthouse-old-city",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/travel/istanbul-airport-transfer",
+   "ok": true
+  },
+  {
+   "name": "status 200 1440px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "no horizontal overflow 1440px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "one h1 + main 1440px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "lang/dir 1440px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "images have alt 1440px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "buttons have names 1440px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "title present 1440px fr/istanbul/store/sample-turkish-delight",
+   "ok": true
+  },
+  {
+   "name": "no console errors 1440px fr/istanbul/store/sample-turkish-delight",
    "ok": true
   },
   {

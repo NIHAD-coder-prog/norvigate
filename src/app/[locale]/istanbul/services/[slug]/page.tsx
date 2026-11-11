@@ -7,7 +7,8 @@ import { pick } from "@/i18n/config";
 import { languageName } from "@/i18n/world-languages";
 import { formatDate } from "@/lib/format";
 import { buildMetadata } from "@/lib/seo";
-import { Chip, Notice, PageHero } from "@/components/ui";
+import { Chip, Notice } from "@/components/ui";
+import { PageHero } from "@/components/ui-server";
 import { InquiryForm } from "@/components/client/InquiryForm";
 
 type P = { params: Promise<{ locale: string; slug: string }> };

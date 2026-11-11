@@ -1,11 +1,11 @@
 # QA report
 
-**Result of the last full run: 2891 / 2891 checks passed.** `npm run typecheck`, `npm run test` (25/25) and `npm run build` are clean. `npm run i18n:check`: tr, ar, es at 100% UI and content. Machine-readable results: `tests/e2e-report.json`.
+**Result of the last full run: 3587 / 3587 checks passed.** `npm run typecheck`, `npm run test` (25/25) and `npm run build` are clean. `npm run i18n:check`: tr, ar, es, fr at 100% UI and content. Machine-readable results: `tests/e2e-report.json`.
 
 ## How it was tested
 Chromium (Playwright) against a production build (`next start`) plus a second dev server in live-store test mode with the mock payment provider. Re-run with `npm run test:e2e`.
 
-## Page matrix: 29 pages x 4 languages (EN, TR, AR, ES) x 3 widths (390, 768, 1440) = 348 loads
+## Page matrix: 29 pages x 5 languages (EN, TR, AR, ES, FR) x 3 widths (390, 768, 1440) = 435 loads
 For each load: HTTP 200, correct `lang` and `dir` (RTL for Arabic), a title, no broken images, buttons have names, **no horizontal overflow**, and no console or page errors.
 
 Pages: home, cities, about, contact, privacy, terms, currency, Istanbul home, services (+ a detail page), experiences, travel (+ a detail page), flights, hotels, translation, tools, guide, premium, store, product page, cart, store terms, shipping and returns, FAQ, search (empty and with a query), list-your-business.
@@ -32,7 +32,11 @@ Pages: home, cities, about, contact, privacy, terms, currency, Istanbul home, se
 ## Test-harness corrections (not product bugs)
 Benign aborted Next.js prefetches and the expected 503 from the exchange-rate endpoint in a no-internet sandbox are ignored; the dev server's inline-style CSP message (server B only, never on the production build) is ignored; the order event-log expectation was updated to two events.
 
+## Added in this round
+French (UI, content, legal drafts), the network roadmap section with the four-state status system, old orange/cyan colours removed from product art, tokens.json replaced by the final identity tokens. The language menu test now targets the dropdown (it shows the current language name).
+
 ## Not verified here
+- French and Spanish have not had a native-quality review.
 - Real devices (iOS Safari, Android Chrome) and screen readers.
 - Open-Meteo weather and live exchange rates (the sandbox has no internet, so only the failure states were exercised).
 - The Docker/Caddy kit on a real server.

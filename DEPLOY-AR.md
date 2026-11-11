@@ -8,7 +8,6 @@
 2. **سجّل سجلات DNS** عند مزوّد النطاق (كلها من نوع A إلى عنوان الخادم):
    - `norvigate.com`
    - `www.norvigate.com`
-   - `istanbul.norvigate.com`
 3. **ثبّت Docker** على الخادم: `curl -fsSL https://get.docker.com | sh`
 4. **ارفع المشروع** (مجلد `norvigate` من ملف zip) إلى الخادم، ثم:
    ```
@@ -18,7 +17,7 @@
    cd deploy
    docker compose --env-file ../.env up -d --build
    ```
-5. **تحقق:** افتح `https://istanbul.norvigate.com` فتدخل مباشرة إلى بوابة اسطنبول، و`https://norvigate.com` للشبكة الرئيسية. الشهادات تُصدَر تلقائياً خلال دقائق من ضبط DNS.
+5. **تحقق:** افتح `https://norvigate.com` للشبكة الرئيسية. وزر «ادخل بوابة إسطنبول» يوجّه الزائر إلى `https://istanbul.norvigate.com`، وهو موقع منفصل يُنشر على حدة (سجل DNS خاص به وخادمه) ولا يخدمه هذا المشروع. الشهادات تُصدَر تلقائياً خلال دقائق من ضبط DNS.
 
 ## النسخة المخفية
 - `NORVIGATE_ALLOW_INDEXING=false` في `.env` يضيف علامة noindex لكل الصفحات، فلا تظهر في البحث.
@@ -55,3 +54,11 @@ docker compose --profile tools run --rm tools store:check
 
 ## تنبيه مهم
 شغّل حاوية `web` واحدة فقط، لأن الطلبات تُكتب في ملفات بقفل داخل العملية.
+
+## مستوى ظهور الموقع للجمهور
+افتح الملف `src/config/visibility.ts` وغيّر السطر الواحد `VISIBILITY_LEVEL` إلى إحدى القيم:
+- `"live"`: ما يعمل فقط.
+- `"beta"`: ما يعمل مع ما هو قيد التجربة.
+- `"all"`: كل شيء، بما فيه ما هو قيد التطوير وضمن خارطة الطريق.
+
+ثم أعد البناء: `docker compose --env-file ../.env up -d --build`. ما دون المستوى يُحذف من الخادم نفسه فلا يظهر في الصفحات ولا لمحركات البحث. حالة كل عنصر تُضبط في `src/data/network.ts`.

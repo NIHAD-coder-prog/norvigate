@@ -1,6 +1,7 @@
 import { Skyline } from "@/components/Skyline";
 import { getCtx, makeMeta, type LocaleParams } from "@/lib/page";
-import { PageHero, Notice } from "@/components/ui";
+import { Notice } from "@/components/ui";
+import { PageHero } from "@/components/ui-server";
 
 export async function generateMetadata({ params }: LocaleParams) {
   return makeMeta(params, "/about", (d) => ({ title: `${d.about.title} | NORVIGATE`, description: d.about.lead }));

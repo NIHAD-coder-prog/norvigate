@@ -1,3 +1,7 @@
+import { StatusTag } from "@/components/NetworkSection";
+import { isCityShown } from "@/config/visibility";
+import { istanbulStatus } from "@/data/network";
+import { ISTANBUL_URL } from "@/data/cities";
 import Link from "next/link";
 import type { Dictionary } from "@/i18n/dictionaries";
 import { fmt, type Locale } from "@/i18n/config";
@@ -28,17 +32,14 @@ export async function SiteFooter({ locale, dict }: { locale: Locale; dict: Dicti
               <li><Link href={h("/currency")}>{dict.nav.currency}</Link></li>
             </ul>
           </nav>
+          {isCityShown("istanbul", istanbulStatus) ? (
           <nav aria-label={dict.footer.istanbulPlatform}>
             <h2>{dict.footer.istanbulPlatform}</h2>
             <ul>
-              <li><Link href={h("/istanbul/services")}>{dict.cityNav.services}</Link></li>
-              <li><Link href={h("/istanbul/premium")}>{dict.cityNav.premium}</Link></li>
-              <li><Link href={h("/istanbul/store")}>{dict.cityNav.store}</Link></li>
-              <li><Link href={h("/istanbul/guide")}>{dict.cityNav.guide}</Link></li>
-              <li><Link href={h("/istanbul/faq")}>{dict.cityNav.faq}</Link></li>
-              <li><Link href={h("/istanbul/list-your-business")}>{dict.cityNav.listBusiness}</Link></li>
+              <li><a href={ISTANBUL_URL}>{dict.nav.enterIstanbul}<StatusTag label={dict.network.status[istanbulStatus].label} /></a></li>
             </ul>
           </nav>
+          ) : null}
           <nav aria-label={dict.footer.legal}>
             <h2>{dict.footer.legal}</h2>
             <ul>

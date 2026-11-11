@@ -1,4 +1,3 @@
-import "@fontsource-variable/manrope";
 import "./globals.css";
 
 /** Global fallback for URLs outside any locale (rare: middleware normally redirects to /{locale}). */

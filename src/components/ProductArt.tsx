@@ -3,7 +3,7 @@ import type { Product } from "@/data/types";
 const BG: Record<string, [string, string]> = {
   sweets: ["#0a1f40", "#12315e"],
   packaged: ["#0b3a52", "#0a5470"],
-  specialties: ["#3a1f0a", "#6b3a0e"],
+  specialties: ["#14305f", "#27498a"],
   gifts: ["#1d1a47", "#2f2a7a"],
   "made-in-istanbul": ["#0d3b3a", "#12595a"],
 };
@@ -11,18 +11,18 @@ const BG: Record<string, [string, string]> = {
 const MOTIFS: Record<Product["motif"], React.ReactNode> = {
   delight: (
     <g>
-      <rect x="18" y="40" width="30" height="30" rx="5" fill="#ff9417" />
-      <rect x="40" y="30" width="30" height="30" rx="5" fill="#05bceb" />
-      <rect x="52" y="52" width="30" height="30" rx="5" fill="#ffd9a6" />
+      <rect x="18" y="40" width="30" height="30" rx="5" fill="#d9a643" />
+      <rect x="40" y="30" width="30" height="30" rx="5" fill="#1d66d0" />
+      <rect x="52" y="52" width="30" height="30" rx="5" fill="#f6dc8b" />
       {[26, 34, 60, 66, 74, 58].map((x, i) => <circle key={i} cx={x} cy={[48, 60, 42, 50, 62, 70][i]} r="1.6" fill="#fff" opacity=".8" />)}
     </g>
   ),
   baklava: (
     <g>
-      <path d="M50 18 82 44 50 70 18 44Z" fill="#ffb347" />
-      <path d="M50 30 70 46 50 62 30 46Z" fill="#ff9417" />
+      <path d="M50 18 82 44 50 70 18 44Z" fill="#f0c46a" />
+      <path d="M50 30 70 46 50 62 30 46Z" fill="#d9a643" />
       <path d="M50 40 60 47 50 54 40 47Z" fill="#7ac943" />
-      <path d="M18 44 50 70 82 44v10L50 80 18 54Z" fill="#c76d00" />
+      <path d="M18 44 50 70 82 44v10L50 80 18 54Z" fill="#a77a22" />
     </g>
   ),
   halva: (
@@ -36,14 +36,14 @@ const MOTIFS: Record<Product["motif"], React.ReactNode> = {
     <g>
       <path d="M26 44h42v16a18 18 0 0 1-18 18h-6a18 18 0 0 1-18-18V44Z" fill="#fff" opacity=".92" />
       <path d="M68 48h6a8 8 0 0 1 0 16h-8" fill="none" stroke="#fff" strokeWidth="5" />
-      <path d="M38 36c-4-6 4-8 0-14M50 36c-4-6 4-8 0-14M62 36c-4-6 4-8 0-14" stroke="#05bceb" strokeWidth="3" fill="none" strokeLinecap="round" />
-      <ellipse cx="47" cy="44" rx="21" ry="4" fill="#ff9417" />
+      <path d="M38 36c-4-6 4-8 0-14M50 36c-4-6 4-8 0-14M62 36c-4-6 4-8 0-14" stroke="#1d66d0" strokeWidth="3" fill="none" strokeLinecap="round" />
+      <ellipse cx="47" cy="44" rx="21" ry="4" fill="#d9a643" />
     </g>
   ),
   spread: (
     <g>
       <rect x="28" y="34" width="44" height="46" rx="8" fill="#8a4b1f" />
-      <rect x="26" y="26" width="48" height="12" rx="4" fill="#ff9417" />
+      <rect x="26" y="26" width="48" height="12" rx="4" fill="#d9a643" />
       <rect x="34" y="48" width="32" height="18" rx="4" fill="#fff" opacity=".9" />
     </g>
   ),
@@ -51,23 +51,23 @@ const MOTIFS: Record<Product["motif"], React.ReactNode> = {
     <g>
       <path d="M20 56h60a30 24 0 0 1-60 0Z" fill="#fff" opacity=".92" />
       <path d="M26 56c4-20 44-20 48 0Z" fill="#d9531e" />
-      <circle cx="42" cy="40" r="2" fill="#ffb347" /><circle cx="58" cy="44" r="2" fill="#ffb347" />
+      <circle cx="42" cy="40" r="2" fill="#f0c46a" /><circle cx="58" cy="44" r="2" fill="#f0c46a" />
     </g>
   ),
   coffee: (
     <g>
-      <path d="M32 40h36l-5 36H37Z" fill="#c76d00" />
-      <path d="M32 40h36l-2 10H34Z" fill="#ff9417" />
-      <path d="M68 46h8v18h-9" fill="none" stroke="#ff9417" strokeWidth="5" />
-      <rect x="44" y="28" width="12" height="12" rx="3" fill="#ff9417" />
+      <path d="M32 40h36l-5 36H37Z" fill="#a77a22" />
+      <path d="M32 40h36l-2 10H34Z" fill="#d9a643" />
+      <path d="M68 46h8v18h-9" fill="none" stroke="#d9a643" strokeWidth="5" />
+      <rect x="44" y="28" width="12" height="12" rx="3" fill="#d9a643" />
     </g>
   ),
   gift: (
     <g>
-      <rect x="22" y="42" width="56" height="38" rx="4" fill="#ff9417" />
-      <rect x="18" y="34" width="64" height="12" rx="3" fill="#ffb347" />
-      <rect x="46" y="34" width="8" height="46" fill="#05bceb" />
-      <path d="M50 34c-12-14-24-6-14 0M50 34c12-14 24-6 14 0" fill="none" stroke="#05bceb" strokeWidth="4" strokeLinecap="round" />
+      <rect x="22" y="42" width="56" height="38" rx="4" fill="#d9a643" />
+      <rect x="18" y="34" width="64" height="12" rx="3" fill="#f0c46a" />
+      <rect x="46" y="34" width="8" height="46" fill="#1d66d0" />
+      <path d="M50 34c-12-14-24-6-14 0M50 34c12-14 24-6 14 0" fill="none" stroke="#1d66d0" strokeWidth="4" strokeLinecap="round" />
     </g>
   ),
   soap: (
@@ -80,7 +80,7 @@ const MOTIFS: Record<Product["motif"], React.ReactNode> = {
   textile: (
     <g>
       <rect x="18" y="26" width="64" height="52" rx="4" fill="#fff" opacity=".92" />
-      {[34, 46, 58, 70].map((y, i) => <rect key={y} x="18" y={y} width="64" height="6" fill={i % 2 ? "#ff9417" : "#0a1f40"} />)}
+      {[34, 46, 58, 70].map((y, i) => <rect key={y} x="18" y={y} width="64" height="6" fill={i % 2 ? "#d9a643" : "#0a1f40"} />)}
       {[24, 34, 44, 54, 64, 74].map((x) => <path key={x} d={`M${x} 78v8`} stroke="#fff" strokeWidth="2" />)}
     </g>
   ),

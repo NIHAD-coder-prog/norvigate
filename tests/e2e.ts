@@ -2,7 +2,7 @@
  * End-to-end tests in a real browser (Chromium via Playwright).
  *   npm run build && npm run test:e2e
  * Starts its own servers on free ports with a throw-away data folder:
- *   A) the PRODUCTION build (`next start`)  : every page x 4 languages x 3 widths, 404s, security headers, forms, API guards
+ *   A) the PRODUCTION build (`next start`)  : every page x 5 languages x 3 widths, 404s, security headers, forms, API guards
  *   B) a DEV server with the store in test mode (mock payment provider, fake seller/product): the full checkout path
  * Needs: `npx playwright install chromium` once. Live weather, live rates and the real iyzico sandbox are NOT reachable from CI.
  * Writes tests/e2e-report.json.
@@ -16,7 +16,7 @@ import path from "node:path";
 import { collections } from "../src/data";
 import { formSpecs, type FormKind } from "../src/lib/forms";
 
-const LOCALES = ["en", "tr", "ar", "es"] as const;
+const LOCALES = ["en", "tr", "ar", "es", "fr"] as const;
 const WIDTHS = [390, 768, 1440] as const;
 const PORT_A = 3100;
 const PORT_B = 3200;
@@ -279,7 +279,7 @@ async function uiBehaviour(browser: Browser, base: string) {
   const errors: string[] = [];
   const page = await newPage(ctx, errors);
   await page.goto(`${base}/en/istanbul`, { waitUntil: "load" });
-  await page.locator("summary", { hasText: /^\s*EN/ }).first().click();
+  await page.locator("summary", { hasText: /English/ }).first().click();
   await page.locator('a:has-text("العربية")').first().click();
   await page.waitForURL(/\/ar\/istanbul/, { timeout: 8000 }).catch(() => undefined);
   check("language switch keeps the page and flips to Arabic", /\/ar\/istanbul/.test(page.url()));

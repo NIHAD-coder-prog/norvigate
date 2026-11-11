@@ -4,7 +4,7 @@ import type { Dictionary } from "./en";
 export const tr: DeepPartial<Dictionary> = {
   meta: {
     siteName: "NORVIGATE",
-    tagline: "Dünyaya Açılan Kapınız",
+    tagline: "Dünya Şehirlerine Açılan Kapınız",
     cityName: "İSTANBUL ULUSLARARASI KAPISI",
     cityTagline: "İstanbul'a Açılan Kapınız",
     description:
@@ -26,13 +26,13 @@ export const tr: DeepPartial<Dictionary> = {
       { title: "Yatırım", text: "Ana şirketin modelleme ekibiyle hazırlanan pazar istihbaratı. Planlandı, henüz mevcut değil." },
     ],
     cityTitle: "Şehirler",
-    cityLead: "İstanbul ilk kapı ve canlı giriştir.",
+    cityLead: "İstanbul ilk kapı ve giriş noktasıdır.",
     cityLive: "Canlı önizleme",
     nameTitle: "İsmin anlamı",
     name: [
-      { part: "NOR", text: "Kuzeye doğru yön." },
-      { part: "VIGI", text: "Vizyon ve uyanıklık." },
-      { part: "GATE", text: "Kapı." },
+      { part: "NOR", text: "Yön: varış noktanızı biz belirleriz." },
+      { part: "VIGI", text: "İç görü: resmin tamamını görür, sizin için önemli olanı gözetiriz." },
+      { part: "GATE", text: "Kapı: şehre güvenilir girişiniz." },
     ],
     sisterTitle: "NORVIGIQ'nun kardeş şirketi",
     sisterText: "NORVIGIQ ana şirkettir: finansal ve iş istihbaratı, modelleme ve tahmin.",
@@ -105,6 +105,56 @@ export const tr: DeepPartial<Dictionary> = {
     external: "Harici sağlayıcı",
     comingSoon: "Yakında",
     unverified: "Doğrulanmadı",
+  },
+
+  network: {
+    "title": "Açık açık kurulan bir şehir kapıları ağı",
+    "lead": "İstanbul ilk kapıdır. Diğer kapılar yol haritasındadır ve aşağıdaki her öğe bugün tam olarak nerede olduğunu gösterir.",
+    "mapLabel": "Ağ haritası: İstanbul, planlanan şehir kapılarına bağlı",
+    "citiesTitle": "Şehir kapıları",
+    "capsTitle": "Her kapı neler sunmak üzere kuruluyor",
+    "capsLead": "Gösterilen durum, bugün İstanbul kapısındaki durumdur. Diğer tüm kapılar planlama aşamasından başlar.",
+    "legendTitle": "Durum nasıl okunur",
+    "status": {
+      "live": {
+        "label": "YAYINDA",
+        "text": "Şu an kullanılabilir: gerçekten talep edebileceğiniz bir hizmet."
+      },
+      "beta": {
+        "label": "BETA",
+        "text": "İlk sürümüyle çalışıyor; test edip geliştiriyoruz."
+      },
+      "development": {
+        "label": "GELİŞTİRİLİYOR",
+        "text": "Çalışma başladı ancak ticari kullanıma hazır değil."
+      },
+      "planned": {
+        "label": "PLANLANDI",
+        "text": "Yol haritasında. Yapımına başlanmış olması gerekmez."
+      }
+    },
+    "cities": {
+      "istanbul": "İstanbul",
+      "dubai": "Dubai",
+      "riyadh": "Riyad",
+      "doha": "Doha",
+      "london": "Londra",
+      "newyork": "New York",
+      "singapore": "Singapur",
+      "hongkong": "Hong Kong",
+      "damascus": "Şam",
+      "aleppo": "Halep"
+    },
+    "caps": {
+      "travel": "Seyahat ve Turizm",
+      "realestate": "Gayrimenkul",
+      "shopping": "Alışveriş",
+      "business": "İş ve Yatırım",
+      "education": "Eğitim",
+      "health": "Sağlık ve Zindelik",
+      "more": "Diğer hizmetler"
+    },
+    "flagship": "Amiral kapı"
   },
 
   nav: {
@@ -206,7 +256,7 @@ export const tr: DeepPartial<Dictionary> = {
 
   home: {
     heroEyebrow: "Önizleme",
-    heroTitle: "Dünyaya Açılan Kapınız",
+    heroTitle: "Dünya Şehirlerine Açılan Kapınız",
     heroLead:
       "NORVIGATE bir şehir geçidi platformudur. Bir şehri keşfedin, ihtiyaçlarınızı planlayın, yerel hizmetleri bulun ve onları sunan insanlarla bağlantı kurun. İlk şehrimiz İstanbul.",
     ctaPrimary: "İstanbul Uluslararası Kapısı'na gir",
@@ -217,7 +267,7 @@ export const tr: DeepPartial<Dictionary> = {
     valueLead: "Her şehir; yeni gelenlerin, ziyaretçilerin ve işletmelerin gerçekten ihtiyaç duyduğu şeylere göre kurulan kendi platformuna sahip olur.",
     values: [
       { title: "Her seferinde bir şehir", text: "İstanbul ile başlayarak şehre özel kategoriler, pratik bilgiler ve hizmetler." },
-      { title: "Birçok dil için kuruldu", text: "Bugün İngilizce, Türkçe, Arapça ve İspanyolca; sağdan sola düzen ve her dili ekleyebilecek altyapı ile." },
+      { title: "Birçok dil için kuruldu", text: "Bugün İngilizce, Türkçe, Arapça, İspanyolca ve Fransızca; sağdan sola düzen ve her dili ekleyebilecek altyapı ile." },
       { title: "Tasarımda dürüstlük", text: "Örnek içerik, planlanan özellikler ve yakında açılacak şehirler açıkça etiketlenir. Uydurma yorum, puan veya müsaitlik yoktur." },
     ],
     citiesTitle: "Mevcut şehirler",
@@ -262,7 +312,7 @@ export const tr: DeepPartial<Dictionary> = {
     featured: "Öne çıkan kategoriler",
     platformUrl: "Platform adresi",
     plannedSubdomain: "planlanan adres",
-    onThisSite: "İstanbul platformu bu sitede /istanbul altında açılır.",
+    onThisSite: "İstanbul kapısının kendi sitesi vardır. Yukarıdaki adresten girebilirsiniz.",
     enter: "Platforma gir",
     notLive: "Henüz platform yok. İlan veya sipariş kabul edilmiyor.",
     statusPreview: "Önizleme",

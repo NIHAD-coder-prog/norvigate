@@ -1,5 +1,5 @@
 import { getCtx, makeMeta, type LocaleParams } from "@/lib/page";
-import { PageHero } from "@/components/ui";
+import { PageHero } from "@/components/ui-server";
 import { Converter } from "@/components/client/Converter";
 
 export async function generateMetadata({ params }: LocaleParams) {

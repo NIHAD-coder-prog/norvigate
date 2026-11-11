@@ -9,6 +9,7 @@ const loaders: Record<string, () => Promise<LegalPack>> = {
   tr: async () => (await import("./tr")).tr,
   ar: async () => (await import("./ar")).ar,
   es: async () => (await import("./es")).es,
+  fr: async () => (await import("./fr")).fr,
 };
 
 /** Legal text for a language. Never falls back silently to another language except English for a language with no legal text yet. */

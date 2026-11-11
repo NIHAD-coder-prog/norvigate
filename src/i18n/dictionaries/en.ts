@@ -8,7 +8,7 @@ const rec = (x: Record<string, string>): Record<string, string> => x;
 export const en = {
   meta: {
     siteName: "NORVIGATE",
-    tagline: "Your Gateway to the World",
+    tagline: "Your Gateway to the World's Cities",
     cityName: "ISTANBUL INTERNATIONAL GATE",
     cityTagline: "Your Gateway to Istanbul",
     description:
@@ -19,7 +19,7 @@ export const en = {
 
   brand: {
     descriptor: "TOURISM · SERVICES · INVESTMENT",
-    subline: "ALL YOUR NEEDS IN ONE PLACE",
+    subline: "ALL YOU NEED IN ONE PLACE",
     hubLead: "One trusted gate where visitors, expats and investors find everything they need and aspire to in a city.",
     enterIstanbul: "Enter the Istanbul gate",
     aboutCta: "About NORVIGATE",
@@ -30,13 +30,13 @@ export const en = {
       { title: "Investment", text: "Market intelligence prepared with the parent company's modelling team. Planned, not yet available." },
     ],
     cityTitle: "Cities",
-    cityLead: "Istanbul is the first gate and the live entry.",
+    cityLead: "Istanbul is the first gate and the entry point.",
     cityLive: "Live preview",
     nameTitle: "What the name means",
     name: [
-      { part: "NOR", text: "Direction toward the north." },
-      { part: "VIGI", text: "Vision and vigilance." },
-      { part: "GATE", text: "The gate." },
+      { part: "NOR", text: "Direction: we set your destination." },
+      { part: "VIGI", text: "Insight: we see the whole picture and watch what matters to you." },
+      { part: "GATE", text: "Gate: your trusted entrance to the city." },
     ],
     sisterTitle: "A sister company of NORVIGIQ",
     sisterText: "NORVIGIQ is the parent company: financial and business intelligence, modelling and forecasting.",
@@ -109,6 +109,56 @@ export const en = {
     external: "External provider",
     comingSoon: "Coming soon",
     unverified: "Not verified",
+  },
+
+  network: {
+    "title": "A network of city gates, built in the open",
+    "lead": "Istanbul is the first gate. The other gates are on the roadmap, and every item below shows exactly where it stands today.",
+    "mapLabel": "Network map: Istanbul connected to the planned city gates",
+    "citiesTitle": "City gates",
+    "capsTitle": "What each gate is built to offer",
+    "capsLead": "The status shown is today's status inside the Istanbul gate. Every other gate starts at the planned stage.",
+    "legendTitle": "How to read the status",
+    "status": {
+      "live": {
+        "label": "LIVE",
+        "text": "Available now: a service you can actually request."
+      },
+      "beta": {
+        "label": "BETA",
+        "text": "Working in a first version while we test and improve it."
+      },
+      "development": {
+        "label": "IN DEVELOPMENT",
+        "text": "Work has started, but it is not ready for commercial use."
+      },
+      "planned": {
+        "label": "PLANNED",
+        "text": "On the roadmap. Building has not necessarily started."
+      }
+    },
+    "cities": {
+      "istanbul": "Istanbul",
+      "dubai": "Dubai",
+      "riyadh": "Riyadh",
+      "doha": "Doha",
+      "london": "London",
+      "newyork": "New York",
+      "singapore": "Singapore",
+      "hongkong": "Hong Kong",
+      "damascus": "Damascus",
+      "aleppo": "Aleppo"
+    },
+    "caps": {
+      "travel": "Travel & Tourism",
+      "realestate": "Real Estate",
+      "shopping": "Shopping",
+      "business": "Business & Investment",
+      "education": "Education",
+      "health": "Health & Wellness",
+      "more": "More services"
+    },
+    "flagship": "Flagship gate"
   },
 
   nav: {
@@ -210,7 +260,7 @@ export const en = {
 
   home: {
     heroEyebrow: "Preview",
-    heroTitle: "Your Gateway to the World",
+    heroTitle: "Your Gateway to the World's Cities",
     heroLead:
       "NORVIGATE is a city-gateway platform. Discover a city, plan what you need, find local services and connect with the people who provide them. Istanbul is our first city.",
     ctaPrimary: "Enter Istanbul International Gate",
@@ -226,7 +276,7 @@ export const en = {
       },
       {
         title: "Built for many languages",
-        text: "English, Turkish, Arabic and Spanish today, with right-to-left layout and room to add any language.",
+        text: "English, Turkish, Arabic, Spanish and French today, with right-to-left layout and room to add any language.",
       },
       {
         title: "Honest by design",
@@ -276,7 +326,7 @@ export const en = {
     featured: "Featured categories",
     platformUrl: "Platform address",
     plannedSubdomain: "planned address",
-    onThisSite: "The Istanbul platform opens on this site under /istanbul.",
+    onThisSite: "The Istanbul gate has its own site. Enter it at the address above.",
     enter: "Enter platform",
     notLive: "No platform yet. Not accepting listings or orders.",
     statusPreview: "Preview",

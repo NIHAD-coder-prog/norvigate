@@ -1,5 +1,5 @@
 import { getCtx, makeMeta, type LocaleParams } from "@/lib/page";
-import { PageHero } from "@/components/ui";
+import { PageHero } from "@/components/ui-server";
 import { InquiryForm } from "@/components/client/InquiryForm";
 import { contactTopics } from "@/lib/forms";
 

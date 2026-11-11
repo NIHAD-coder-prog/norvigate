@@ -20,6 +20,7 @@ const PATHS: Record<string, ReactNode> = {
   compass: <><circle cx="12" cy="12" r="9" /><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z" /></>,
   plane: <path d="m3 13 18-8-4 15-5-5-3 3v-5L3 13Z" />,
   menu: <path d="M4 7h16M4 12h16M4 17h16" />,
+  grid: <><rect x="4" y="4" width="6.5" height="6.5" rx="1.5" /><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.5" /><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.5" /><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.5" /></>,
   chevron: <path d="m9 6 6 6-6 6" />,
   swap: <path d="M7 4 3 8l4 4M3 8h14M17 20l4-4-4-4M21 16H7" />,
 };
@@ -98,44 +99,6 @@ export function Breadcrumb({ items, label }: { items: Crumb[]; label: string }) 
         ))}
       </ol>
     </nav>
-  );
-}
-
-/** Compact dark page header used by inner pages. */
-export function PageHero({
-  title,
-  lead,
-  crumbs,
-  crumbLabel,
-  chip,
-  children,
-}: {
-  title: string;
-  lead?: string;
-  crumbs?: Crumb[];
-  crumbLabel: string;
-  chip?: ReactNode;
-  children?: ReactNode;
-}) {
-  return (
-    <section className="hero hero--page on-dark">
-      <div className="container">
-        {crumbs ? <Breadcrumb items={crumbs} label={crumbLabel} /> : null}
-        {chip ? <div style={{ marginBlockEnd: ".9rem" }}>{chip}</div> : null}
-        <h1>{title}</h1>
-        {lead ? <p className="lead" style={{ margin: 0 }}>{lead}</p> : null}
-        {children}
-      </div>
-    </section>
-  );
-}
-
-export function SectionHead({ title, lead }: { title: string; lead?: string }) {
-  return (
-    <div className="section-head">
-      <h2>{title}</h2>
-      {lead ? <p>{lead}</p> : null}
-    </div>
   );
 }
 

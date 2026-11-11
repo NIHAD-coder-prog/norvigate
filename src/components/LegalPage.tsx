@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import Link from "next/link";
-import { PageHero, Notice } from "@/components/ui";
+import { Notice } from "@/components/ui";
+import { PageHero } from "@/components/ui-server";
 import type { Dictionary } from "@/i18n/dictionaries";
 import type { LegalPack } from "@/content/legal";
 import { business } from "@/store-live/business";

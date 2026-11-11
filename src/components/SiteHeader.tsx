@@ -1,3 +1,7 @@
+import { StatusTag } from "@/components/NetworkSection";
+import { isCityShown } from "@/config/visibility";
+import { istanbulStatus } from "@/data/network";
+import { ISTANBUL_URL } from "@/data/cities";
 import Link from "next/link";
 import { NavLink } from "./client/NavLink";
 import { LanguageSwitcher } from "./client/LanguageSwitcher";
@@ -46,7 +50,7 @@ export function SiteHeader({ locale, dict }: { locale: Locale; dict: Dictionary 
               {links.map((l) => (
                 <NavLink key={l.path} href={href(locale, l.path)} exact={l.exact}>{l.label}</NavLink>
               ))}
-              <NavLink href={href(locale, "/istanbul")}>{dict.nav.enterIstanbul}</NavLink>
+              {isCityShown("istanbul", istanbulStatus) ? <a href={ISTANBUL_URL}>{dict.nav.enterIstanbul}<StatusTag label={dict.network.status[istanbulStatus].label} /></a> : null}
             </nav>
           </details>
         </div>

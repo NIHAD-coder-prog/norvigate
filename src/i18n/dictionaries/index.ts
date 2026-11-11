@@ -15,6 +15,7 @@ export const dictionaryLoaders: Record<string, Loader> = {
   tr: async () => (await import("./tr")).tr,
   ar: async () => (await import("./ar")).ar,
   es: async () => (await import("./es")).es,
+  "fr": async () => (await import("./fr")).fr,
   // <<ADD-DICTIONARY>>
 };
 

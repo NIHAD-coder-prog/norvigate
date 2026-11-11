@@ -2,7 +2,8 @@ import { getCtx, makeMeta, type LocaleParams } from "@/lib/page";
 import { getExternalLinks, listProviders } from "@/lib/repo";
 import { fmt, pick } from "@/i18n/config";
 import { formatDate } from "@/lib/format";
-import { Chip, Icon, Notice, PageHero } from "@/components/ui";
+import { Chip, Icon, Notice } from "@/components/ui";
+import { PageHero } from "@/components/ui-server";
 import { InquiryForm } from "@/components/client/InquiryForm";
 
 

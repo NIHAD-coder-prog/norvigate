@@ -3,7 +3,8 @@ import { getCtx, makeMeta, type LocaleParams } from "@/lib/page";
 import { searchContent, facetIds, type SearchType } from "@/lib/search";
 import { fmt } from "@/i18n/config";
 import { withQuery } from "@/lib/href";
-import { Chip, Notice, PageHero } from "@/components/ui";
+import { Chip, Notice } from "@/components/ui";
+import { PageHero } from "@/components/ui-server";
 
 export async function generateMetadata({ params }: LocaleParams) {
   return makeMeta(params, "/istanbul/search", (d) => ({ title: `${d.search.title} | NORVIGATE`, description: d.search.lead }));

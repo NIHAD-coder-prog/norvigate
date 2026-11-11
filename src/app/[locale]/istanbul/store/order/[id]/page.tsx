@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import { getCtx } from "@/lib/page";
 import { getOrder, tokenMatches } from "@/store-live/orders";
-import { Chip, Notice, PageHero } from "@/components/ui";
+import { Chip, Notice } from "@/components/ui";
+import { PageHero } from "@/components/ui-server";
 import { formatDate, formatMoney } from "@/lib/format";
 import { buildMetadata } from "@/lib/seo";
 import type { Metadata } from "next";

@@ -24,3 +24,6 @@ export const cities: City[] = [
 ];
 
 export const istanbul = cities[0];
+
+/** The Istanbul gate is its own site. Every hub entry point to Istanbul goes here. */
+export const ISTANBUL_URL = "https://istanbul.norvigate.com";

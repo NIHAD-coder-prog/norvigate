@@ -1,5 +1,6 @@
 import { getCtx, makeMeta, type LocaleParams } from "@/lib/page";
-import { Chip, Notice, PageHero, SectionHead } from "@/components/ui";
+import { Chip, Notice } from "@/components/ui";
+import { PageHero, SectionHead } from "@/components/ui-server";
 import { InquiryForm } from "@/components/client/InquiryForm";
 
 export async function generateMetadata({ params }: LocaleParams) {

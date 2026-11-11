@@ -2,7 +2,8 @@ import { readiness, storeConfig } from "@/store-live/service";
 import { getCtx, makeMeta, type LocaleParams } from "@/lib/page";
 import { listProducts } from "@/lib/repo";
 import { pick } from "@/i18n/config";
-import { Notice, PageHero } from "@/components/ui";
+import { Notice } from "@/components/ui";
+import { PageHero } from "@/components/ui-server";
 import { CartView } from "@/components/client/CartView";
 
 export async function generateMetadata({ params }: LocaleParams) {

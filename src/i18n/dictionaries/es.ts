@@ -4,7 +4,7 @@ import type { Dictionary } from "./en";
 export const es: DeepPartial<Dictionary> = {
   meta: {
     siteName: "NORVIGATE",
-    tagline: "Tu puerta al mundo",
+    tagline: "Tu puerta a las ciudades del mundo",
     cityName: "PUERTA INTERNACIONAL DE ESTAMBUL",
     cityTagline: "Tu puerta a Estambul",
     description:
@@ -26,13 +26,13 @@ export const es: DeepPartial<Dictionary> = {
       { title: "Inversión", text: "Inteligencia de mercado preparada con el equipo de modelización de la empresa matriz. Planificado, aún no disponible." },
     ],
     cityTitle: "Ciudades",
-    cityLead: "Estambul es la primera puerta y la entrada activa.",
+    cityLead: "Estambul es la primera puerta y el punto de entrada.",
     cityLive: "Vista previa activa",
     nameTitle: "Qué significa el nombre",
     name: [
-      { part: "NOR", text: "Dirección hacia el norte." },
-      { part: "VIGI", text: "Visión y vigilancia." },
-      { part: "GATE", text: "La puerta." },
+      { part: "NOR", text: "Dirección: fijamos tu destino." },
+      { part: "VIGI", text: "Visión: vemos el panorama completo y vigilamos lo que te importa." },
+      { part: "GATE", text: "Puerta: tu entrada de confianza a la ciudad." },
     ],
     sisterTitle: "Empresa hermana de NORVIGIQ",
     sisterText: "NORVIGIQ es la empresa matriz: inteligencia financiera y empresarial, modelización y pronósticos.",
@@ -105,6 +105,56 @@ export const es: DeepPartial<Dictionary> = {
     external: "Proveedor externo",
     comingSoon: "Próximamente",
     unverified: "Sin verificar",
+  },
+
+  network: {
+    "title": "Una red de puertas de ciudad, construida a la vista",
+    "lead": "Estambul es la primera puerta. Las demás están en la hoja de ruta, y cada elemento de abajo muestra exactamente en qué punto está hoy.",
+    "mapLabel": "Mapa de la red: Estambul conectada con las puertas de ciudad planificadas",
+    "citiesTitle": "Puertas de ciudad",
+    "capsTitle": "Lo que cada puerta está pensada para ofrecer",
+    "capsLead": "El estado mostrado es el de hoy dentro de la puerta de Estambul. Todas las demás puertas empiezan en la fase planificada.",
+    "legendTitle": "Cómo leer el estado",
+    "status": {
+      "live": {
+        "label": "DISPONIBLE",
+        "text": "Disponible ahora: un servicio que realmente puedes solicitar."
+      },
+      "beta": {
+        "label": "BETA",
+        "text": "Funciona en una primera versión mientras lo probamos y mejoramos."
+      },
+      "development": {
+        "label": "EN DESARROLLO",
+        "text": "El trabajo ha empezado, pero aún no está listo para uso comercial."
+      },
+      "planned": {
+        "label": "PLANIFICADO",
+        "text": "En la hoja de ruta. No necesariamente ha empezado su construcción."
+      }
+    },
+    "cities": {
+      "istanbul": "Estambul",
+      "dubai": "Dubái",
+      "riyadh": "Riad",
+      "doha": "Doha",
+      "london": "Londres",
+      "newyork": "Nueva York",
+      "singapore": "Singapur",
+      "hongkong": "Hong Kong",
+      "damascus": "Damasco",
+      "aleppo": "Alepo"
+    },
+    "caps": {
+      "travel": "Viajes y turismo",
+      "realestate": "Inmobiliaria",
+      "shopping": "Compras",
+      "business": "Negocios e inversión",
+      "education": "Educación",
+      "health": "Salud y bienestar",
+      "more": "Más servicios"
+    },
+    "flagship": "Puerta insignia"
   },
 
   nav: {
@@ -206,7 +256,7 @@ export const es: DeepPartial<Dictionary> = {
 
   home: {
     heroEyebrow: "Versión preliminar",
-    heroTitle: "Tu puerta al mundo",
+    heroTitle: "Tu puerta a las ciudades del mundo",
     heroLead:
       "NORVIGATE es una plataforma de puertas de ciudad. Descubre una ciudad, planifica lo que necesitas, encuentra servicios locales y conecta con quienes los ofrecen. Estambul es nuestra primera ciudad.",
     ctaPrimary: "Entrar en la Puerta Internacional de Estambul",
@@ -217,7 +267,7 @@ export const es: DeepPartial<Dictionary> = {
     valueLead: "Cada ciudad tiene su propia plataforma, construida en torno a lo que realmente necesitan los recién llegados, los visitantes y los negocios.",
     values: [
       { title: "Una ciudad cada vez", text: "Categorías locales, orientación práctica y servicios pensados para la ciudad, empezando por Estambul." },
-      { title: "Pensada para muchos idiomas", text: "Hoy en inglés, turco, árabe y español, con diseño de derecha a izquierda y espacio para añadir cualquier idioma." },
+      { title: "Pensada para muchos idiomas", text: "Hoy en inglés, turco, árabe, español y francés, con diseño de derecha a izquierda y espacio para añadir cualquier idioma." },
       { title: "Honesta por diseño", text: "El contenido de muestra, las funciones planificadas y las ciudades próximas se señalan con claridad. Sin reseñas, valoraciones ni disponibilidad inventadas." },
     ],
     citiesTitle: "Ciudades disponibles",
@@ -262,7 +312,7 @@ export const es: DeepPartial<Dictionary> = {
     featured: "Categorías destacadas",
     platformUrl: "Dirección de la plataforma",
     plannedSubdomain: "dirección prevista",
-    onThisSite: "La plataforma de Estambul se abre en este sitio, en /istanbul.",
+    onThisSite: "La puerta de Estambul tiene su propio sitio. Entra desde la dirección de arriba.",
     enter: "Entrar en la plataforma",
     notLive: "Todavía no hay plataforma. No se aceptan anuncios ni pedidos.",
     statusPreview: "Vista previa",

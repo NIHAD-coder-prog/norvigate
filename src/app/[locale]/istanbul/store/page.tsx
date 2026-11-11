@@ -5,7 +5,8 @@ import { listProducts } from "@/lib/repo";
 import { fmt, pick } from "@/i18n/config";
 import { filterProducts, minPrice, storeSorts, type StoreSort } from "@/lib/store";
 import { withQuery } from "@/lib/href";
-import { Chip, Notice, PageHero } from "@/components/ui";
+import { Chip, Notice } from "@/components/ui";
+import { PageHero } from "@/components/ui-server";
 import { ProductArt } from "@/components/ProductArt";
 import { Price } from "@/components/client/Price";
 

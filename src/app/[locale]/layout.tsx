@@ -1,8 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
-import "@fontsource-variable/manrope";
-import "@fontsource-variable/cormorant";
-import "@fontsource-variable/noto-sans-arabic";
 import "../globals.css";
 import { getDirection, isComplete, isLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
@@ -37,6 +34,15 @@ export default async function LocaleLayout({ children, params }: { children: Rea
 
   return (
     <html lang={locale} dir={dir}>
+      <head>
+        {/* Preload only the faces this page direction needs (self-hosted, no third-party requests). */}
+        {(dir === "rtl"
+          ? ["noto-naskh-arabic-arabic-wght-normal", "amiri-arabic-700-normal"]
+          : ["literata-latin-wght-normal", "cormorant-latin-wght-normal"]
+        ).map((f) => (
+          <link key={f} rel="preload" as="font" type="font/woff2" href={`/fonts/${f}.woff2`} crossOrigin="anonymous" />
+        ))}
+      </head>
       <body>
         <a className="skip-link" href="#main">{dict.common.skipToContent}</a>
         <Providers locale={locale} currencyLabels={dict.currency}>

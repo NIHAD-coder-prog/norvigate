@@ -116,10 +116,10 @@ export const faqItems: FaqItem[] = [
       "¿Qué idiomas admite el sitio?",
     ),
     a: L(
-      "English, Turkish, Arabic and Spanish, with a full right-to-left layout for Arabic. The platform is built so more languages can be added; text that is not yet translated is shown in English. Use the language switcher in the header.",
-      "İngilizce, Türkçe, Arapça ve İspanyolca; Arapça için tam sağdan sola düzen vardır. Platform, yeni diller eklenebilecek şekilde kurulmuştur; henüz çevrilmemiş metin İngilizce gösterilir. Üst bilgideki dil değiştiriciyi kullanın.",
-      "الإنجليزية والتركية والعربية والإسبانية، مع تخطيط كامل من اليمين إلى اليسار للعربية. بُنيت المنصة بحيث يمكن إضافة لغات أخرى، وأي نص لم يُترجم بعد يظهر بالإنجليزية. استخدم مبدّل اللغة في أعلى الصفحة.",
-      "Inglés, turco, árabe y español, con diseño completo de derecha a izquierda para el árabe. La plataforma está construida para poder añadir más idiomas; el texto aún sin traducir se muestra en inglés. Usa el selector de idioma de la cabecera.",
+      "English, Turkish, Arabic, Spanish and French, with a full right-to-left layout for Arabic. The platform is built so more languages can be added; text that is not yet translated is shown in English. Use the language switcher in the header.",
+      "İngilizce, Türkçe, Arapça, İspanyolca ve Fransızca; Arapça için tam sağdan sola düzen vardır. Platform, yeni diller eklenebilecek şekilde kurulmuştur; henüz çevrilmemiş metin İngilizce gösterilir. Üst bilgideki dil değiştiriciyi kullanın.",
+      "الإنجليزية والتركية والعربية والإسبانية والفرنسية، مع تخطيط كامل من اليمين إلى اليسار للعربية. بُنيت المنصة بحيث يمكن إضافة لغات أخرى، وأي نص لم يُترجم بعد يظهر بالإنجليزية. استخدم مبدّل اللغة في أعلى الصفحة.",
+      "Inglés, turco, árabe, español y francés, con diseño completo de derecha a izquierda para el árabe. La plataforma está construida para poder añadir más idiomas; el texto aún sin traducir se muestra en inglés. Usa el selector de idioma de la cabecera.",
     ),
   },
   {

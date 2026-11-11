@@ -2,7 +2,8 @@ import Link from "next/link";
 import { getCtx, makeMeta, type LocaleParams } from "@/lib/page";
 import { listProviderCategories, listProviders } from "@/lib/repo";
 import { fmt, pick } from "@/i18n/config";
-import { Chip, PageHero } from "@/components/ui";
+import { Chip } from "@/components/ui";
+import { PageHero } from "@/components/ui-server";
 import { isProviderCategoryId } from "@/data/categories";
 
 export async function generateMetadata({ params }: LocaleParams) {

@@ -35,6 +35,7 @@ export const languages: LanguageEntry[] = [
   // Latin digits for Arabic so prices, dates and phone numbers read the same across languages.
   { code: "ar", intl: "ar-u-nu-latn", ogLocale: "ar_AR", complete: true },
   { code: "es", intl: "es-ES", ogLocale: "es_ES", complete: true },
+  { code: "fr", intl: "fr-FR", ogLocale: "fr_FR", complete: true },
   // <<ADD-LANGUAGE>>  (scripts/add-language.mjs inserts new entries above this line)
 ];
 

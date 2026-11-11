@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCtx, makeMeta, type LocaleParams } from "@/lib/page";
-import { PageHero, Notice } from "@/components/ui";
+import { Notice } from "@/components/ui";
+import { PageHero } from "@/components/ui-server";
 import { Weather } from "@/components/client/Weather";
 import { ISTANBUL, istanbulToday, prayerTimes } from "@/lib/prayer";
 

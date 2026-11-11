@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import { getCtx, makeMeta, type LocaleParams } from "@/lib/page";
-import { Notice, PageHero } from "@/components/ui";
+import { Notice } from "@/components/ui";
+import { PageHero } from "@/components/ui-server";
 import { CheckoutForm } from "@/components/client/CheckoutForm";
 import { activeShipping, readiness, storeConfig } from "@/store-live/service";
 import { shippableCountries } from "@/store-live/pricing";

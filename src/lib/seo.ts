@@ -36,7 +36,7 @@ export function buildMetadata({ locale, path, title, description }: MetaInput): 
       url: absoluteUrl(`/${locale}${path}`),
       locale: ogLocaleOf(locale),
       alternateLocale: locales.filter((l) => l !== locale).map(ogLocaleOf),
-      images: [{ url: "/brand/og-image.jpg", width: 1200, height: 628, alt: "NORVIGATE — Your Gateway to the World" }],
+      images: [{ url: "/brand/og-image.jpg", width: 1200, height: 628, alt: "NORVIGATE — Your Gateway to the World's Cities" }],
     },
     twitter: { card: "summary_large_image", title, description, images: ["/brand/og-image.jpg"] },
   };

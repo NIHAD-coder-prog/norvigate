@@ -1,9 +1,13 @@
+import { isCityShown } from "@/config/visibility";
+import { istanbulStatus } from "@/data/network";
+import { ISTANBUL_URL } from "@/data/cities";
 import Link from "next/link";
 import { getCtx, makeMeta, type LocaleParams } from "@/lib/page";
 import { listCities, listProviderCategories } from "@/lib/repo";
 import { pick } from "@/i18n/config";
 import { languageName } from "@/i18n/world-languages";
-import { Chip, PageHero } from "@/components/ui";
+import { StatusLight, StatusTag } from "@/components/NetworkSection";
+import { PageHero } from "@/components/ui-server";
 import { InquiryForm } from "@/components/client/InquiryForm";
 import { Skyline } from "@/components/Skyline";
 
@@ -21,7 +25,7 @@ export default async function CitiesPage({ params }: LocaleParams) {
       <PageHero title={t.title} lead={t.lead} crumbLabel={dict.common.breadcrumb} crumbs={[{ label: dict.nav.home, href: h() }, { label: t.title }]} />
       <section className="section on-light">
         <div className="container" style={{ display: "grid", gap: "1.5rem" }}>
-          {cities.map((c) => {
+          {cities.filter((c) => isCityShown(c.id, c.status === "preview" ? istanbulStatus : "planned")).map((c) => {
             const live = c.status === "preview";
             const arch = live ? (
               <Skyline fill="#9fb0e6" />
@@ -34,7 +38,7 @@ export default async function CitiesPage({ params }: LocaleParams) {
                 <div>
                   <h2 style={{ marginBlockEnd: ".25rem" }}>{pick(c.name, locale)}</h2>
                   <p style={{ margin: "0 0 .8rem", fontWeight: 800 }}>{pick(c.platformName, locale)}</p>
-                  <Chip status={live ? "preview" : "comingSoon"}>{live ? t.statusPreview : t.statusSoon}</Chip>
+                  <StatusLight status={live ? istanbulStatus : "planned"} label={dict.network.status[live ? istanbulStatus : "planned"].label} />
                   <p>{pick(c.description, locale)}</p>
                   <dl className="kv">
                     <dt>{t.country}</dt>
@@ -48,12 +52,12 @@ export default async function CitiesPage({ params }: LocaleParams) {
                       </>
                     ) : null}
                     <dt>{t.platformUrl}</dt>
-                    <dd><span dir="ltr">{c.plannedUrl}</span> <span className="muted">({t.plannedSubdomain})</span></dd>
+                    <dd>{live ? <a href={ISTANBUL_URL} dir="ltr">{c.plannedUrl}</a> : <span dir="ltr">{c.plannedUrl}</span>}</dd>
                   </dl>
                   {live ? (
                     <>
                       <p className="small muted">{t.onThisSite}</p>
-                      <Link className="btn btn--primary" href={h("/istanbul")}>{t.enter}</Link>
+                      <a className="btn btn--primary" href={ISTANBUL_URL}>{t.enter}<StatusTag label={dict.network.status[istanbulStatus].label} /></a>
                     </>
                   ) : (
                     <p className="muted">{t.notLive}</p>

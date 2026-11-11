@@ -1,7 +1,7 @@
 # NORVIGATE v0.1
 
 City-gateway website. First gate: **ISTANBUL INTERNATIONAL GATE** (`/{locale}/istanbul`, planned address `istanbul.norvigate.com`).
-Next.js 15 (App Router) · React 19 · TypeScript (strict) · Languages: English, Turkish, Arabic (RTL), Spanish, plus any language you add.
+Next.js 15 (App Router) · React 19 · TypeScript (strict) · Languages: English, Turkish, Arabic (RTL), Spanish, French, plus any language you add.
 
 All listings, products, prices and descriptions are **labelled samples**. Nothing here is a real service, client, price or review.
 
@@ -22,7 +22,7 @@ npm run build && npm start  # production build
 | `npm run test` | 25 unit tests: forms, store pricing, order files |
 | `npm run i18n:check` | translation coverage per language (UI and content) |
 | `npm run store:check` | whether live checkout may open (see Store) |
-| `npm run test:e2e` | 2891 browser checks (Chromium): every page x 4 languages x 3 widths, 404s, security headers, every form through the real UI, API guards, cart, and a full live checkout with a mock provider |
+| `npm run test:e2e` | 3587 browser checks (Chromium): every page x 5 languages x 3 widths, 404s, security headers, every form through the real UI, API guards, cart, and a full live checkout with a mock provider |
 
 ## Environment
 
@@ -35,6 +35,14 @@ See `.env.example` (every variable is commented). Main ones:
 | `NORVIGATE_DATA_DIR` | where submissions and orders are stored (needs a persistent writable disk) |
 | `STORE_MODE` | `request` (launch default, no payment) or `live` (online checkout) |
 | `RATE_LIMIT_MAX` | optional: submissions per client per 10 minutes (default 12; tests raise it) |
+
+## Network roadmap (hub home)
+
+`src/data/network.ts` lists the city gates and the capabilities with one honest status each: `live`, `beta`, `development`, `planned`. The home page renders them with a status light and a text label. Istanbul is LIVE (its own site at istanbul.norvigate.com); every other city is PLANNED, with no link. To advance an item, change its status in that file; names live in `dict.network` (all five languages).
+
+## Visibility level (what the public sees)
+
+One line in `src/config/visibility.ts` (`VISIBILITY_LEVEL`) sets the public face of the site: `"live"` (only what works now), `"beta"` (working plus in-trial) or `"all"` (everything, including development and roadmap). Items below the level are removed on the server, so they are not in pages, menus or search results. Statuses are set in `src/data/network.ts`. Rebuild after changing it. The environment variable `NORVIGATE_VISIBILITY` overrides the file.
 
 ## Forms
 

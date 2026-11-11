@@ -44,7 +44,7 @@ export function LanguageSwitcher({
       summary={
         <>
           <Icon name="globe" size={16} />
-          <span>{active?.short ?? current.toUpperCase()}</span>
+          <span lang={current}>{active?.name ?? current.toUpperCase()}</span>
         </>
       }
     >

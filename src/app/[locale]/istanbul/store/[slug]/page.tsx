@@ -7,7 +7,8 @@ import { collections } from "@/data";
 import { fmt, pick } from "@/i18n/config";
 import { formatDate, formatWeight } from "@/lib/format";
 import { buildMetadata } from "@/lib/seo";
-import { Chip, Notice, PageHero } from "@/components/ui";
+import { Chip, Notice } from "@/components/ui";
+import { PageHero } from "@/components/ui-server";
 import { ProductArt } from "@/components/ProductArt";
 import { AddToCart } from "@/components/client/AddToCart";
 
